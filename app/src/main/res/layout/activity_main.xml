@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.peiwc.iostableview.MyScrollView
+        android:id="@+id/scv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title0"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#ffF19EDB"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="条目1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:adjustViewBounds="true"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:text="text1"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/title1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/colorRed"
+                android:gravity="center"
+                android:text="条目2"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:adjustViewBounds="true"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:text="text2"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:adjustViewBounds="true"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:text="text3"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/colorYel"
+                android:gravity="center"
+                android:text="条目3"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/iv1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:adjustViewBounds="true"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:text="text4"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/title3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/colorBlue"
+                android:gravity="center"
+                android:text="条目4"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:adjustViewBounds="true"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:text="text5"
+                android:textSize="26sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:adjustViewBounds="true"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:text="text6"
+                android:textSize="26sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:adjustViewBounds="true"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:text="text7"
+                android:textSize="26sp" />
+        </LinearLayout>
+    </com.example.peiwc.iostableview.MyScrollView>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorZi"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="条目1" />
+
+</RelativeLayout>
